@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spacescan.IO.Net", "Spacescan.IO.Net\Spacescan.IO.Net.csproj", "{9CC6A58F-71FB-498B-A11B-A6235CA11184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spacescan.IO.Net.UnitTests", "Spacescan.IO.Net.UnitTests\Spacescan.IO.Net.UnitTests.csproj", "{D857C82C-B741-4878-A8B4-BD2B5A80CEF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9CC6A58F-71FB-498B-A11B-A6235CA11184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC6A58F-71FB-498B-A11B-A6235CA11184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC6A58F-71FB-498B-A11B-A6235CA11184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D857C82C-B741-4878-A8B4-BD2B5A80CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D857C82C-B741-4878-A8B4-BD2B5A80CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D857C82C-B741-4878-A8B4-BD2B5A80CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D857C82C-B741-4878-A8B4-BD2B5A80CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 
 namespace Spacescan.IO.Net.Offering_NS
 {
-    internal class Offers_Client
+    public partial class Offers_Client
     {
         /// <summary>
         /// this client is used for the requests
@@ -19,7 +19,6 @@ namespace Spacescan.IO.Net.Offering_NS
         /// this is the default api endpoint
         /// </summary>
         /// <remarks>
-        /// defaults to https://api.dexie.space/v1/ according to the documentation.
         /// </remarks>
         public static string URI { get; set; } = "https://api2.spacescan.io/api/";
         /// <summary>
@@ -126,8 +125,7 @@ namespace Spacescan.IO.Net.Offering_NS
         public static async Task<string> GetContent_Async(string endpoint)
         {
             AwaitRateLimit();
-            string usedAddress = ProdURI;
-            if (UseTestnet) usedAddress = TestURI;
+            string usedAddress = URI;
             using (var request = new HttpRequestMessage(new HttpMethod("GET"), usedAddress + endpoint))
             {
                 var response = await _Client.SendAsync(request);
