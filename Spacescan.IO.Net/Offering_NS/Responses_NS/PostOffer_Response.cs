@@ -5,7 +5,7 @@ namespace Spacescan.IO.Net.Offering_NS.Responses_NS
 {
     public class PostOffer_Response
     {
-        public bool success { get; set; }
+        public string success { get; set; }
         public string? error { get;  set; }
         public dynamic offer { get; set; }
         /// <summary>
