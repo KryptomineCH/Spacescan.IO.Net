@@ -33,11 +33,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\Dexie.Space.Net\icon.png">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Dexie.Space.Net\README.md">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
